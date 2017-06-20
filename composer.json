@@ -1,0 +1,28 @@
+{
+  "name": "aircodes/aircore",
+  "description": "Runnable PHP Websocket & HTTP server",
+  "type": "lib",
+  "require": {
+    "cboden/ratchet": "^0.3.6",
+    "klein/klein": "^2.1"
+  },
+  "require-dev": {
+    "monolog/monolog": "^1.22"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aircodes\\": "src/Aircodes",
+      "": "server/src"
+    },
+    "files": [
+      "src/Extras/http-cookie.php"
+    ]
+  },
+  "license": "GNU GPLv3",
+  "authors": [{
+    "name": "Parfenov Bogdan",
+    "email": "raccoon@aircodes.pro",
+    "role": "Developer"
+  }],
+  "minimum-stability": "stable"
+}
